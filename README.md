@@ -98,4 +98,9 @@ In src folder we have,
  * PrivateRoute.js is the blueprint for all private routes in the application. If the user is logged in, go on and display the component otherwise, redirect the user to sign-in page. 
  * PublicRoute.js that everyone can access to all pages which no need to authenticated.
 ## Store Folder
+* The store folder basically helps for state management using redux .
+* Reducer function will accept the previous state of app and action being dispatched, calculate the next state and returns the new object.
+* Also contains two files — the store and the dispatchable actions file, which contains all the actions from every type of state dispatchable from your UI.
+* Redux middleware provides a third-party extension point between dispatching an action, and the moment it reaches the reducer.
+## utils
 *
