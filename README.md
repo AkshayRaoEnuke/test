@@ -92,3 +92,10 @@ In src folder we have,
 ## Routers Folder
 * React Router is a standard library for routing in React. 
 * It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL.
+* In router folder we have two files ,
+     * PrivateRoute.js
+     * PublicRoute.js
+ * PrivateRoute.js is the blueprint for all private routes in the application. If the user is logged in, go on and display the component otherwise, redirect the user to sign-in page. 
+ * PublicRoute.js that everyone can access to all pages which no need to authenticated.
+## Store Folder
+*
