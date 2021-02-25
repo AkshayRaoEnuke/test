@@ -102,5 +102,7 @@ In src folder we have,
 * Reducer function will accept the previous state of app and action being dispatched, calculate the next state and returns the new object.
 * Also contains two files — the store and the dispatchable actions file, which contains all the actions from every type of state dispatchable from your UI.
 * Redux middleware provides a third-party extension point between dispatching an action, and the moment it reaches the reducer.
-## utils
-*
+## utils Folder
+*  Utils folder contains Helper functions are JavaScript functions.
+*  When you need to compute something using JavaScript, you can use helper functions.
+*  For example we used form validation using Helper functions.
