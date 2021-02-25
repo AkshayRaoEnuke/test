@@ -40,6 +40,14 @@ my-app/
     
 
 ```
+## Node Modules Folder
+* node_modules folder is the repository of modules/library which you are using inside your project. 
+* What ever you are importing in your project that module or library should present inside the mode_module folder.
+
+## package.json file
+* All npm packages contain a file, usually in the project root, called package. json - this file holds various metadata relevant to the project. 
+* This file is used to give information to npm that allows it to identify the project as well as handle the project's dependencies.
+
 ## About Public Folder
 For the project to build, **these files must exist with exact filenames**:
 
@@ -102,7 +110,7 @@ In src folder we have,
 * Reducer function will accept the previous state of app and action being dispatched, calculate the next state and returns the new object.
 * Also contains two files — the store and the dispatchable actions file, which contains all the actions from every type of state dispatchable from your UI.
 * Redux middleware provides a third-party extension point between dispatching an action, and the moment it reaches the reducer.
-## utils Folder
+## Utils Folder
 *  Utils folder contains Helper functions are JavaScript functions.
 *  When you need to compute something using JavaScript, you can use helper functions.
 *  For example we used form validation using Helper functions.
